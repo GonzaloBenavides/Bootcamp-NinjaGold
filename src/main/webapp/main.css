@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.table-fixed tbody{
+		height:200px;
+		overflow-y:auto;
+}
+.table-fixed tbody, .table-fixed thead, .table-fixed td, .table-fixed tr{
+	display:block;
+}
+
+.positivo {
+	color: green;
+}
+
+.negativo {
+	color: red;
+	font-weight: bold;
+}
